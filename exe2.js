@@ -28,13 +28,8 @@
         if (delta==0){
          raiz = (-b + Math.sqrt(delta) )/(2*a);
          ans.innerHTML="Raiz dupla: " + raiz;
-        }else{
-         real = (-b)/(2*a);
-         img1  = Math.sqrt(-delta)/(2*a);
-         img2  = - Math.sqrt(-delta)/(2*a);
-
-         ans.innerHTML = "Raiz 1: " + real + "+" + img1+"i"+"<br/>" +
-             "Raiz 2: " + real + "+" + img2+"i"
+        } else{
+          ans.innerHTML="Delta é negativo";
         }
        }
      }
